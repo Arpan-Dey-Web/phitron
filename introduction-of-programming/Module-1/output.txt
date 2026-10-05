@@ -1,1 +1,4 @@
-Hello.....45 
+Enter Your First Number
+Enter Your Second Number
+Your Second Number : 40
+Your First Number : 20
