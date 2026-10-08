@@ -19,6 +19,243 @@
 
 ---
 
+# PHITRON FIXED WEEKLY ROUTINE
+
+This schedule is the fixed backbone of the year-long plan.
+
+| Day | Phitron activity | My SDE-1 study |
+|---|---|---|
+| Saturday | Full module | Phitron first; short DSA review only |
+| Sunday | Full module | Phitron first; short DSA review only |
+| Monday | Practice day | Phitron practice + small interview practice |
+| Tuesday | Full module | Phitron first; short DSA review only |
+| Wednesday | Practice day | Phitron practice + small interview practice |
+| Thursday | Exam | Exam is the priority; no heavy extra topic |
+| Friday | Chill / no new module | Light review only; recovery day |
+
+### Phitron Module Expectations
+
+- Full module: **8–10 videos**
+- Full module content is roughly **1–1.5 hours of video**
+- With coding/practice, a full module can require roughly **3–5 hours**
+- Practice day: **1–2 explained problems + 4–5 practice problems**
+- Exam: usually **2–3 hours**
+- Friday: no new module
+
+## My Important Rule
+
+I have an 8-hour internship, so I will **not try to complete every Phitron full module in one sitting**.
+
+On Saturday/Sunday/Tuesday, I will divide the full module into manageable study blocks.
+
+**Phitron always gets first priority on release days.**
+
+The extra SDE-1 preparation is layered around the course rather than competing with it.
+
+---
+
+# MY PHITRON-ALIGNED WEEKLY STUDY ROUTINE
+
+## Saturday — Full Module Day
+**Target: 1.5–2 hours**
+
+1. Watch part of the new full module.
+2. Code along with the instructor.
+3. Make short notes.
+4. Reproduce important code without looking.
+5. Only if energy remains: **15–20 min old-problem review**.
+
+**No heavy new DSA pattern today.**
+
+## Sunday — Full Module Day
+**Target: 1.5–2 hours**
+
+1. Continue/finish the full module.
+2. Practice the examples.
+3. Write the important syntax/patterns yourself.
+4. Review Saturday's difficult points.
+5. Optional: **15–20 min re-solve of an old problem**.
+
+**The goal is understanding, not finishing everything at any cost.**
+
+## Monday — Practice Day
+**Target: 1.5–2 hours**
+
+### First priority
+- Phitron practice problems
+- Complete the required practice set
+
+### Then
+- 30–45 min SDE-1 practice
+- Re-solve 1 old problem OR solve 1 interview-pattern problem
+
+**Monday is one of the best days for extra problem solving.**
+
+## Tuesday — Full Module Day
+**Target: 1.5–2 hours**
+
+1. Watch the new full module.
+2. Code along.
+3. Practice important examples.
+4. Review the difficult part from Sunday.
+5. Optional: **15–20 min previous-problem review**.
+
+**No large extra topic.**
+
+## Wednesday — Practice + Preparation Day
+**Target: 1.5–2 hours**
+
+### First priority
+- Phitron practice
+- Finish anything needed before Thursday's exam
+
+### Then
+- 30–45 min interview practice
+- 1 problem OR re-solve an old problem
+- Review one weak concept
+
+**Wednesday is also a good day for timed practice.**
+
+## Thursday — Exam Day
+**Target: exam-focused**
+
+### Priority order
+1. Review difficult Phitron topics.
+2. Take the exam seriously.
+3. Analyze mistakes after the exam.
+
+### Extra SDE-1 study
+**Maximum 15–30 min only**, and only if you feel fresh.
+
+Examples:
+- Review one old problem
+- Read your error log
+- Review complexity
+- Review one CS concept
+
+**No new heavy topic.**
+
+## Friday — Recovery + Light Review Day
+**Target: 30–60 minutes**
+
+This is the main weekly recovery day.
+
+Do NOT start a difficult new topic.
+
+Choose 1–2:
+- Review the week's notes
+- Re-solve 1 old problem
+- Review your DSA error log
+- Review one difficult Phitron concept
+- Read 15–20 min of CS fundamentals
+- Organize next week's tasks
+
+Then stop.
+
+**Friday is not a zero-study day, but it is deliberately low pressure.**
+
+---
+
+# WEEKLY STUDY PRIORITY
+
+When Phitron is active, use this order:
+
+**1. Phitron module**
+
+↓
+
+**2. Phitron practice**
+
+↓
+
+**3. Phitron exam**
+
+↓
+
+**4. SDE-1 DSA practice**
+
+↓
+
+**5. CS fundamentals / interview preparation**
+
+This prevents the extra SDE-1 topics from damaging the core course.
+
+---
+
+# IMPORTANT CHANGE TO THE 52-WEEK PLAN
+
+The phase structure stays the same:
+
+- Weeks 1–5 → C
+- Weeks 6–8 → C++/STL
+- Weeks 9–16 → Core Data Structures
+- Weeks 17–26 → Algorithms
+- Weeks 27–34 → Interview Patterns
+- Weeks 35–38 → Advanced/Bonus Algorithms
+- Weeks 39–44 → CS Fundamentals
+- Weeks 45–48 → OOP/LLD/HLD
+- Weeks 49–52 → Interview Execution
+- Week 16 onward → Job Applications continue in parallel
+
+But the **weekly workload now follows the Phitron calendar above**.
+
+During the 17-week Phitron course:
+
+### Full-module days
+**Phitron-heavy + only light DSA review**
+
+### Practice days
+**Phitron practice + main interview problem solving**
+
+### Exam day
+**Exam only + optional tiny review**
+
+### Friday
+**Recovery + revision**
+
+---
+
+# 17-WEEK PHITRON PERIOD — THE REALISTIC RULE
+
+During the first 17 weeks, I should NOT try to complete:
+
+> Phitron + 2 hours of completely separate DSA every single day.
+
+That would create unnecessary burnout.
+
+Instead:
+
+### On Phitron-heavy days
+Extra work = **15–20 min maximum**
+
+### On practice days
+Extra work = **30–45 min**
+
+### Friday
+Extra work = **30–60 min light review**
+
+This gives enough exposure to interview preparation while protecting the main course.
+
+---
+
+# AFTER PHITRON
+
+After the 17-week course ends, the study schedule can become more DSA-heavy.
+
+Then the weekly pattern can become:
+
+**Monday:** DSA pattern + problems  
+**Tuesday:** DSA + CS  
+**Wednesday:** DSA + timed practice  
+**Thursday:** DSA + interview communication  
+**Friday:** light review  
+**Saturday:** contest / mock  
+**Sunday:** revision / recovery
+
+That is when the 1.5–2 hours/day can be used more aggressively for the SDE-1 roadmap.
+
+---
+
 # 2. The Most Important Rule
 
 ## I do NOT need to learn everything at the same depth.
@@ -69,80 +306,7 @@ My priority is:
 
 # 3. Weekly Schedule
 
-I am working an 8-hour internship, so I will NOT study intensely 7 days a week.
-
-## Monday — Serious Study
-**1.5–2 hours**
-
-- [ ] 20 min — Learn/review the main topic
-- [ ] 60 min — Problem solving
-- [ ] 20 min — Debug + test + complexity
-- [ ] 10–20 min — Notes
-
-## Tuesday — Serious Study
-**1.5–2 hours**
-
-- [ ] Phitron study
-- [ ] 1–2 problems
-- [ ] Write time/space complexity
-- [ ] Review one previous problem
-
-## Wednesday — Serious Study
-**1.5–2 hours**
-
-- [ ] Phitron / main topic
-- [ ] Interview pattern
-- [ ] Solve 1 problem deeply
-- [ ] Explain the solution aloud
-
-## Thursday — Serious Study
-**1.5–2 hours**
-
-- [ ] Phitron
-- [ ] 1–2 problems
-- [ ] Re-solve one older problem
-
-## Friday — LIGHT DAY
-**45–75 minutes**
-
-No heavy new topic.
-
-- [ ] Review this week's notes
-- [ ] Re-solve 1 old problem
-- [ ] Review mistakes
-- [ ] Finish unfinished Phitron work
-- [ ] Optional: 15–20 min CS fundamentals
-
-## Saturday — PRACTICE DAY
-**60–120 minutes**
-
-Normally:
-
-- [ ] 1 Codeforces / LeetCode contest OR timed coding session
-- [ ] 30–45 min upsolve/review
-
-If tired:
-
-- [ ] Skip the contest
-- [ ] Re-solve 2 old problems
-- [ ] Review weak topics
-
-## Sunday — VERY LIGHT DAY
-**30–45 minutes**
-
-No serious new topic.
-
-Choose one:
-
-- [ ] Review notes
-- [ ] Re-watch a difficult concept
-- [ ] Re-solve 1 old problem
-- [ ] Review error log
-- [ ] Prepare next week
-
-> **Sunday is recovery + continuity, not a full study day.**
-
----
+See the **Phitron-aligned weekly routine** above. That routine is the schedule I should actually follow while the course is running.
 
 # 4. How I Should Solve Problems
 
