@@ -138,3 +138,112 @@
     // printf("%.3f", num);
     // return 0;
 // }
+
+
+// Problem Statement
+
+// You've learned about variables, right? Now its time to practice them. You need to take an integer A, a very big integer B, a floating value C and a character D as input and output them serially.
+
+// Input Format
+
+// First line will contain A
+// Second line will contain B
+// Third line will contain C
+// Fourth line will contain D
+// Constraints
+
+// -10^9 <= A <= 10^9
+// -10^18 <= B <= 10^18
+// -10^9 <= C <= 10^9
+// Output Format
+
+// Output them serially and put a new line after each value. Output the floating value 2 points after decimal.
+// Sample Input 0
+
+// 100
+// 1234567891234567
+// 23.5675
+// A
+// Sample Output 0
+
+// 100
+// 1234567891234567
+// 23.57
+// A
+
+#include <stdio.h>
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int A;
+    long long B;
+    float C;
+    char D;
+    scanf("%d %lf %f %c",&A,&B,&C,&D);
+    printf("%d\n %lf\n %f %c ", A,B,C,D);
+    return 0;
+    
+}
+
+
+
+
+
+// Problem Statement
+
+// You will be given a positive integer N, you need to print from 1 to N and besides the value, print Yes or No. Print Yes if the value is divisible by 5 and print No otherwise.
+
+// Input Format
+
+// Input will contain a positive integer N.
+// Constraints
+
+// 1 <= N <= 1000
+// Output Format
+
+// Output as mentioned in the question. See the sample input output for more clarifications. Put a new line after every line.
+// Sample Input 0
+
+// 10
+// Sample Output 0
+
+// 1 No
+// 2 No
+// 3 No
+// 4 No
+// 5 Yes
+// 6 No
+// 7 No
+// 8 No
+// 9 No
+// 10 Yes
+// Sample Input 1
+
+// 5
+// Sample Output 1
+
+// 1 No
+// 2 No
+// 3 No
+// 4 No
+// 5 Yes
+
+
+
+// #include <stdio.h>
+// int main() {
+
+//     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+//     int n;
+//     scanf("%d", &n );
+    
+//     for(int i =1; i<=n ; i++){
+        
+//         if(i%5==0){
+//             printf("%d Yes\n",i);
+//         } else{
+//             printf("%d No\n",i);
+//         };
+//     }
+//     return 0;
+// }

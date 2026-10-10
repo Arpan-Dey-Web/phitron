@@ -423,9 +423,162 @@ So:
 \t → insert a tab
 ```
 
+### Important Note
+
+A tab often **looks like 4 spaces**, but that is not a rule.
+
+```text
+\t → tab (spacing decided by terminal/editor, often 4 spaces wide)
+```
+
+If we need exactly 4 spaces every time, we should print 4 space characters directly instead of relying on `\t`.
+
 ---
 
-# 12. Variables
+# 12. Escape Sequence — Backslash `\\`
+
+`\` has a special meaning in C: it starts an **escape sequence**.
+
+That means a single `\` never prints itself. It always combines with the next character:
+
+```text
+\n → newline
+\t → tab
+\\ → one backslash
+```
+
+To print **one** backslash, we must type **two**:
+
+```c
+printf("C:\\Users\\Arpan\n");
+```
+
+Output:
+
+```text
+C:\Users\Arpan
+```
+
+How the compiler reads it:
+
+```text
+\\ → prints \
+\\ → prints \
+```
+
+Compare:
+
+```c
+printf("a\b");     // \b = backspace escape, not a literal 'b'
+printf("a\\b");    // prints: a\b
+```
+
+So:
+
+```text
+\  → never printed directly, starts an escape sequence
+\\ → prints one backslash \
+```
+
+---
+
+# 13. Escape Sequences — Quotes `\"` and `\'`
+
+Double quotes `"` and single quotes `'` are special inside strings and character constants. Sometimes we need to print them as normal text.
+
+To print a double quote inside a string:
+
+```c
+printf("He said \"Hello\"\n");
+```
+
+Output:
+
+```text
+He said "Hello"
+```
+
+Without the escape:
+
+```c
+printf("He said "Hello"");   // error: string ends at the second "
+```
+
+To print a single quote:
+
+```c
+printf("It's fine\n");
+```
+
+Inside a string, `\'` is optional — a single quote usually needs no escape.
+
+But inside a **character constant** it becomes necessary, because an unescaped `'` would end the constant early:
+
+```c
+char ch = '\'';    // one character: '
+char ch2 = ''';    // error: character constant ends at the second '
+```
+
+So:
+
+```text
+\" → prints "
+\' → prints '
+```
+
+---
+
+# 14. Other Common Escape Sequences
+
+| Escape Sequence | Meaning                    | Example output |
+| --------------- | -------------------------- | -------------- |
+| `\n`            | new line                   | moves to next line |
+| `\t`            | tab (often 4 spaces wide)  | `Hello    World` |
+| `\\`            | one backslash              | `\`            |
+| `\"`            | double quote               | `"`            |
+| `\'`            | single quote               | `'`            |
+| `\r`            | carriage return (cursor back to start of line) | overwrites from beginning |
+| `\a`            | alert / bell sound         | terminal beep  |
+| `\0`            | null character             | marks end of a string |
+
+Example combining several:
+
+```c
+int main() {
+    printf("Name:\t\"Arpan\"\nPath:\tC:\\code\n");
+
+    return 0;
+}
+```
+
+Output:
+
+```text
+Name:	"Arpan"
+Path:	C:\code
+```
+
+### Important Note
+
+`\r` does **not** create a new line. It moves the cursor back to the **start of the current line**, so new output overwrites the old text:
+
+```c
+printf("Hello\rWorld\n");
+```
+
+Output:
+
+```text
+World
+```
+
+(`World` overwrites `Hello`.)
+
+The exact behavior of `\a` (bell) and `\r` depends on the terminal.
+
+---
+
+# 15. Variables
 
 A **variable** is a named storage location in memory used to hold a value.
 
@@ -461,7 +614,7 @@ A variable allows us to store and work with data while the program is running.
 
 ---
 
-# 13. Basic Data Types
+# 16. Basic Data Types
 
 A data type tells C what kind of data a variable will store.
 
@@ -488,7 +641,7 @@ sizeof()
 
 ---
 
-# 14. Integer — `int`
+# 17. Integer — `int`
 
 Example:
 
@@ -534,7 +687,7 @@ It can store both positive and negative values.
 
 ---
 
-# 15. Long Long Integer — `long long`
+# 18. Long Long Integer — `long long`
 
 Example:
 
@@ -570,7 +723,7 @@ The `LL` suffix tells the compiler that the integer literal is intended to be a 
 
 ---
 
-# 16. Float — `float`
+# 19. Float — `float`
 
 Example:
 
@@ -615,7 +768,7 @@ the literal is normally treated as a `double`.
 
 ---
 
-# 17. Double — `double`
+# 20. Double — `double`
 
 Example:
 
@@ -643,7 +796,7 @@ A `double` is useful when more floating-point precision is required.
 
 ---
 
-# 18. Character — `char`
+# 21. Character — `char`
 
 Example:
 
@@ -691,7 +844,7 @@ Typical size:
 
 ---
 
-# 19. String in C
+# 22. String in C
 
 C does not provide a built-in `string` data type like languages such as JavaScript, Java, or C++'s `std::string`.
 
@@ -734,7 +887,7 @@ means a string.
 
 ---
 
-# 20. Boolean — `bool`
+# 23. Boolean — `bool`
 
 Boolean data represents two logical states:
 
@@ -786,7 +939,7 @@ if (isLoggedIn) {
 
 ---
 
-# 21. Bits and Bytes
+# 24. Bits and Bytes
 
 Computers represent data using binary.
 
@@ -825,7 +978,7 @@ Therefore:
 
 ---
 
-# 22. Memory Units
+# 25. Memory Units
 
 Common binary-based memory units are:
 
@@ -875,7 +1028,7 @@ For signed integer types, part of the available range is used for negative numbe
 
 ---
 
-# 23. Format Specifiers
+# 26. Format Specifiers
 
 A **format specifier** tells functions such as `printf()` and `scanf()` what kind of data we are working with.
 
@@ -911,7 +1064,7 @@ This difference is very important to remember.
 
 ---
 
-# 24. Printing a Float with Decimal Precision
+# 27. Printing a Float with Decimal Precision
 
 Suppose we have:
 
@@ -981,7 +1134,7 @@ where `N` is the number of digits we want after the decimal point.
 
 ---
 
-# 25. Taking Input with `scanf()`
+# 28. Taking Input with `scanf()`
 
 To take input from the user, we commonly use:
 
@@ -1018,7 +1171,7 @@ Here:
 
 ---
 
-# 26. What does `&` mean in `scanf()`?
+# 29. What does `&` mean in `scanf()`?
 
 This is a very important concept.
 
@@ -1087,7 +1240,7 @@ This concept will become much more important later when learning **pointers**.
 
 ---
 
-# 27. Taking Multiple Inputs
+# 30. Taking Multiple Inputs
 
 We can take multiple values using one `scanf()` call.
 
@@ -1139,7 +1292,7 @@ The format specifiers and variables correspond in order:
 
 ---
 
-# 28. Memory Consumption and Integer Limits
+# 31. Memory Consumption and Integer Limits
 
 A typical `int` uses:
 
@@ -1266,6 +1419,17 @@ printf("Hello World");
 
 ```c
 \t
+```
+
+## More Escape Sequences
+
+```text
+\\ → one backslash \
+\" → double quote "
+\' → single quote '
+\r → carriage return (back to start of line)
+\a → alert / bell
+\0 → null character
 ```
 
 ## Integer
