@@ -28,21 +28,23 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int x = 10;
-//
+/*
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+
 //      post-increment: y takes the old value (10), x becomes 11
-//     int y = x++;
-//     printf("%d %d\n", x, y);
-//
+    int y = x++;
+    printf("%d %d\n", x, y);
+
 //      pre-increment: y becomes 11 first, then z = 11
-//     int z = ++y;
-//     printf("%d %d %d", x, y, z);
-//
-//     return 0;
-// }
+    int z = ++y;
+    printf("%d %d %d", x, y, z);
+
+    return 0;
+}
+*/
 
 
 /*
@@ -78,27 +80,29 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     if (n == 1) {
-//         printf("-1");
-//     } else {
-//         for (int i = 1; i <= n; i++) {
-//             if (i % 2 == 0) {
-//                 printf("%d\n", i);
-//             }
-//         }
-//     }
-//
-//     return 0;
-// }
-//
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    if (n == 1) {
+        printf("-1");
+    } else {
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                printf("%d\n", i);
+            }
+        }
+    }
+
+    return 0;
+}
+
 // Note: n == 1 is the only value with no even numbers.
 // Alternative: start at 2 and step by 2 (i += 2).
+*/
 
 
 /*
@@ -143,38 +147,40 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int takeInput;
-//     int input;
-//     int even = 0, odd = 0, positive = 0, negative = 0;
-//
-//     scanf("%d", &takeInput);
-//
-//     for (int i = 1; i <= takeInput; i++) {
-//         scanf("%d", &input);
-//
-//         if (input > 0) {
-//             positive += 1;
-//         } else if (input < 0) {
-//             negative += 1;
-//         }
-//
-//         if (input % 2 == 0) {
-//             even += 1;
-//         } else {
-//             odd += 1;
-//         }
-//     }
-//
-//     printf("Even: %d\n", even);
-//     printf("Odd: %d\n", odd);
-//     printf("Positive: %d\n", positive);
-//     printf("Negative: %d\n", negative);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int takeInput;
+    int input;
+    int even = 0, odd = 0, positive = 0, negative = 0;
+
+    scanf("%d", &takeInput);
+
+    for (int i = 1; i <= takeInput; i++) {
+        scanf("%d", &input);
+
+        if (input > 0) {
+            positive += 1;
+        } else if (input < 0) {
+            negative += 1;
+        }
+
+        if (input % 2 == 0) {
+            even += 1;
+        } else {
+            odd += 1;
+        }
+    }
+
+    printf("Even: %d\n", even);
+    printf("Odd: %d\n", odd);
+    printf("Positive: %d\n", positive);
+    printf("Negative: %d\n", negative);
+
+    return 0;
+}
+*/
 
 
 /*
@@ -217,44 +223,48 @@
 =====================================================================
 */
 
+/*
 // Version 1: while loop reading until EOF
-//
-// #include <stdio.h>
-//
-// int main() {
-//     int x;
-//
-//     while (scanf("%d", &x) != EOF) {
-//         if (x == 1999) {
-//             printf("Correct\n");
-//             break;
-//         } else {
-//             printf("Wrong\n");
-//         }
-//     }
-//
-//     return 0;
-// }
+
+#include <stdio.h>
+
+int main() {
+    int x;
+
+    while (scanf("%d", &x) != EOF) {
+        if (x == 1999) {
+            printf("Correct\n");
+            break;
+        } else {
+            printf("Wrong\n");
+        }
+    }
+
+    return 0;
+}
+*/
 
 
+/*
 // Version 2: same logic with a for loop (empty update section)
-//
-// #include <stdio.h>
-//
-// int main() {
-//     int x;
-//
-//     for (; scanf("%d", &x) != EOF; ) {
-//         if (x == 1999) {
-//             printf("Correct\n");
-//             break;
-//         } else {
-//             printf("Wrong\n");
-//         }
-//     }
-//
-//     return 0;
-// }
+
+#include <stdio.h>
+
+int main() {
+    int x;
+
+    for (; scanf("%d", &x) != EOF; ) {
+        if (x == 1999) {
+            printf("Correct\n");
+            break;
+        } else {
+            printf("Wrong\n");
+        }
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -284,50 +294,54 @@
 =====================================================================
 */
 
+/*
 // Version 1: start from 0 — safe here because every Xi >= 0
-//
-// #include <stdio.h>
-//
-// int main() {
-//     int max = 0;
-//     int n;
-//     scanf("%d", &n);
-//
-//     for (int i = 1; i <= n; i++) {
-//         int val;
-//         scanf("%d", &val);
-//         if (val > max) {
-//             max = val;
-//         }
-//     }
-//
-//     printf("%d", max);
-//     return 0;
-// }
+
+#include <stdio.h>
+
+int main() {
+    int max = 0;
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        int val;
+        scanf("%d", &val);
+        if (val > max) {
+            max = val;
+        }
+    }
+
+    printf("%d", max);
+    return 0;
+}
+*/
 
 
+/*
 // Version 2: start from INT_MIN — the general way (works for
 // negative numbers too)
-//
-// #include <stdio.h>
-// #include <limits.h>
-//
-// int main() {
-//     int max = INT_MIN;
-//     int n;
-//     scanf("%d", &n);
-//
-//     for (int i = 1; i <= n; i++) {
-//         int val;
-//         scanf("%d", &val);
-//         if (val > max) {
-//             max = val;
-//         }
-//     }
-//
-//     printf("%d", max);
-//     return 0;
-// }
+
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
+    int max = INT_MIN;
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        int val;
+        scanf("%d", &val);
+        if (val > max) {
+            max = val;
+        }
+    }
+
+    printf("%d", max);
+    return 0;
+}
+*/
 
 
 /*
@@ -349,18 +363,20 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     for (int i = 1; i <= 12; i++) {
-//         printf("%d * %d = %d\n", n, i, n * i);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 1; i <= 12; i++) {
+        printf("%d * %d = %d\n", n, i, n * i);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -398,79 +414,85 @@
 =====================================================================
 */
 
+/*
 // Version 1: while loop
 // n % 10 prints the last digit, n /= 10 removes it.
 // Bug kept in mind: when n == 0 the loop body never runs, so this
 // version prints nothing for input 0 (the problem allows N = 0).
-//
-// #include <stdio.h>
-//
-// int main() {
-//     int t;
-//     int n;
-//     scanf("%d", &t);
-//
-//     for (int i = 1; i <= t; i++) {
-//         scanf("%d", &n);
-//
-//         while (n != 0) {
-//             printf("%d ", n % 10);
-//             n /= 10;
-//         }
-//         printf("\n");
-//     }
-//
-//     return 0;
-// }
+
+#include <stdio.h>
+
+int main() {
+    int t;
+    int n;
+    scanf("%d", &t);
+
+    for (int i = 1; i <= t; i++) {
+        scanf("%d", &n);
+
+        while (n != 0) {
+            printf("%d ", n % 10);
+            n /= 10;
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+*/
 
 
+/*
 // Version 2: while loop + special case for n == 0
-//
-// #include <stdio.h>
-//
-// int main() {
-//     int t;
-//     int n;
-//     scanf("%d", &t);
-//
-//     for (int i = 1; i <= t; i++) {
-//         scanf("%d", &n);
-//
-//         if (n == 0) {
-//             printf("%d ", n);
-//         }
-//         while (n != 0) {
-//             printf("%d ", n % 10);
-//             n /= 10;
-//         }
-//         printf("\n");
-//     }
-//
-//     return 0;
-// }
+
+#include <stdio.h>
+
+int main() {
+    int t;
+    int n;
+    scanf("%d", &t);
+
+    for (int i = 1; i <= t; i++) {
+        scanf("%d", &n);
+
+        if (n == 0) {
+            printf("%d ", n);
+        }
+        while (n != 0) {
+            printf("%d ", n % 10);
+            n /= 10;
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+*/
 
 
+/*
 // Version 3: do-while loop
 // The body runs at least once, so n == 0 prints "0" naturally —
 // no special case needed.
-//
-// #include <stdio.h>
-//
-// int main() {
-//     int t;
-//     int n;
-//     scanf("%d", &t);
-//
-//     for (int i = 1; i <= t; i++) {
-//         scanf("%d", &n);
-//
-//         do {
-//             printf("%d ", n % 10);   // last digit
+
+#include <stdio.h>
+
+int main() {
+    int t;
+    int n;
+    scanf("%d", &t);
+
+    for (int i = 1; i <= t; i++) {
+        scanf("%d", &n);
+
+        do {
+            printf("%d ", n % 10);   // last digit
 //             n /= 10;                 // remove last digit
-//         } while (n != 0);
-//
-//         printf("\n");
-//     }
-//
-//     return 0;
-// }
+        } while (n != 0);
+
+        printf("\n");
+    }
+
+    return 0;
+}
+*/

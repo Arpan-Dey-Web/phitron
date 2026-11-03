@@ -29,19 +29,21 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// int main()
-// {
-//   int n;
-//   scanf("%d", &n );
-//   for (int i =1; i<=n; i++)
-//     {
-//       if(i%2==0){
-//         printf("%d\n", i);
-//       }
-//     }
-//   return 0;
-// }
+/*
+#include <stdio.h>
+int main()
+{
+  int n;
+  scanf("%d", &n );
+  for (int i =1; i<=n; i++)
+    {
+      if(i%2==0){
+        printf("%d\n", i);
+      }
+    }
+  return 0;
+}
+*/
 
 
 /*
@@ -65,21 +67,23 @@
     Counter variable starting at 0, += 1 when arr[i] % 2 != 0.
 =====================================================================
 */
-// #include <stdio.h>
-// int main()
-// {
-//   int n;
-//   int totalOddNumber=0;
-//   scanf("%d", &n );
-//   for (int i =1; i<=n; i++)
-//     {
-//       if(i%2==1){
-//       totalOddNumber++;
-//       }
-//     }
-//     printf("%d", totalOddNumber);
-//   return 0;
-// }
+/*
+#include <stdio.h>
+int main()
+{
+  int n;
+  int totalOddNumber=0;
+  scanf("%d", &n );
+  for (int i =1; i<=n; i++)
+    {
+      if(i%2==1){
+      totalOddNumber++;
+      }
+    }
+    printf("%d", totalOddNumber);
+  return 0;
+}
+*/
 
 /*
 =====================================================================
@@ -103,24 +107,26 @@
     Safe start: arr[0], or INT_MIN from <limits.h>.
 =====================================================================
 */
-// #include <stdio.h>
-// int main()
-// {
-//   int n;
-//   int currentNumber=0;
-//   int maximumNumber=0;
-//   scanf("%d", &n );
-//   for (int i =1; i<=n; i++)
-//     {
-//       scanf("%d", &currentNumber );
-//       if (currentNumber >maximumNumber)
-//       {
-//         maximumNumber=currentNumber;
-//       }
-//     }
-//     printf("%d", maximumNumber);
-//   return 0;
-// }
+/*
+#include <stdio.h>
+int main()
+{
+  int n;
+  int currentNumber=0;
+  int maximumNumber=0;
+  scanf("%d", &n );
+  for (int i =1; i<=n; i++)
+    {
+      scanf("%d", &currentNumber );
+      if (currentNumber >maximumNumber)
+      {
+        maximumNumber=currentNumber;
+      }
+    }
+    printf("%d", maximumNumber);
+  return 0;
+}
+*/
 
 /*
 =====================================================================
@@ -145,21 +151,23 @@
 */
 
 
-// #include <stdio.h>
-// int main()
-// {
-//   int n;
-//   int currentNumber;
-//   int minimumNumber;
-//   scanf("%d", &n );
-//   for (int i =1; i<=n; i++)
-//     {
-//       scanf("%d", &currentNumber );
-//       if (currentNumber < minimumNumber)
-//       {
-//         minimumNumber=currentNumber;
-//       }
-//     }
-//     printf("%d", minimumNumber);
-//   return 0;
-// }
+/*
+#include <stdio.h>
+int main()
+{
+  int n;
+  int currentNumber;
+  int minimumNumber;
+  scanf("%d", &n );
+  for (int i =1; i<=n; i++)
+    {
+      scanf("%d", &currentNumber );
+      if (currentNumber < minimumNumber)
+      {
+        minimumNumber=currentNumber;
+      }
+    }
+    printf("%d", minimumNumber);
+  return 0;
+}
+*/

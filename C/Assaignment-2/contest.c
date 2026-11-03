@@ -45,18 +45,20 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     for (int i = 1; i <= n; i++) {
-//         printf("%d. I Want More Assignments\n", i);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        printf("%d. I Want More Assignments\n", i);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -90,26 +92,28 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     if (n > 0) {
-//         for (int i = 1; i <= n; i++) {
-//             printf("%d ", i);
-//         }
-//     } else if (n < 0) {
-//         for (int j = n; j <= 0; j++) {
-//             printf("%d ", j);
-//         }
-//     } else {
-//         printf("%d", n);    // n == 0
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    if (n > 0) {
+        for (int i = 1; i <= n; i++) {
+            printf("%d ", i);
+        }
+    } else if (n < 0) {
+        for (int j = n; j <= 0; j++) {
+            printf("%d ", j);
+        }
+    } else {
+        printf("%d", n);    // n == 0
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -157,26 +161,28 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int currentNumber[n];
-//
-//     for (int i = 0; i < n; i++) {
-//         scanf("%d", &currentNumber[i]);
-//     }
-//
-//     for (int i = n - 1; i >= 0; i--) {
-//         if (i % 2 == 1) {
-//             printf("%d ", currentNumber[i]);
-//         }
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int currentNumber[n];
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &currentNumber[i]);
+    }
+
+    for (int i = n - 1; i >= 0; i--) {
+        if (i % 2 == 1) {
+            printf("%d ", currentNumber[i]);
+        }
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -222,29 +228,31 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int positiveSum = 0, negativeSum = 0;
-//
-//     for (int i = 0; i < n; i++) {
-//         int currentNumber;
-//         scanf("%d", &currentNumber);
-//
-//         if (currentNumber > 0) {
-//             positiveSum += currentNumber;
-//         } else if (currentNumber < 0) {
-//             negativeSum += currentNumber;
-//         }
-//     }
-//
-//     printf("%d %d", positiveSum, negativeSum);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int positiveSum = 0, negativeSum = 0;
+
+    for (int i = 0; i < n; i++) {
+        int currentNumber;
+        scanf("%d", &currentNumber);
+
+        if (currentNumber > 0) {
+            positiveSum += currentNumber;
+        } else if (currentNumber < 0) {
+            negativeSum += currentNumber;
+        }
+    }
+
+    printf("%d %d", positiveSum, negativeSum);
+
+    return 0;
+}
+*/
 
 
 /*
@@ -295,25 +303,27 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     int indexNumber, value;
-//     scanf("%d", &n);
-//
-//     int arr[n];
-//
-//     for (int i = 0; i < n; i++) {
-//         scanf("%d", &arr[i]);
-//     }
-//
-//     scanf("%d %d", &indexNumber, &value);
-//     arr[indexNumber] = value;
-//
-//     for (int i = n - 1; i >= 0; i--) {
-//         printf("%d ", arr[i]);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    int indexNumber, value;
+    scanf("%d", &n);
+
+    int arr[n];
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    scanf("%d %d", &indexNumber, &value);
+    arr[indexNumber] = value;
+
+    for (int i = n - 1; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
+*/

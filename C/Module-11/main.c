@@ -32,23 +32,25 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[101], b[101];
-//     scanf("%s %s", a, b);
-//
-//     int len = strlen(b);
-//     for (int i = 0; i <= len; i++)
-//     {
-//         b[i] = a[i];
-//     }
-//
-//     printf("%s %s", a, b);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[101], b[101];
+    scanf("%s %s", a, b);
+
+    int len = strlen(b);
+    for (int i = 0; i <= len; i++)
+    {
+        b[i] = a[i];
+    }
+
+    printf("%s %s", a, b);
+    return 0;
+}
+*/
 
 
 /*
@@ -71,19 +73,21 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[101], b[101];
-//     scanf("%s %s", a, b);
-//
-//     strcpy(a, b);
-//
-//     printf("%s %s", a, b);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[101], b[101];
+    scanf("%s %s", a, b);
+
+    strcpy(a, b);
+
+    printf("%s %s", a, b);
+    return 0;
+}
+*/
 
 
 /*
@@ -109,25 +113,27 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[101], b[101];
-//     scanf("%s %s", a, b);
-//
-//     int lengthA = strlen(a);
-//     int lengthB = strlen(b);
-//
-//     for (int i = 0; i <= lengthB; i++)          // <= copies '\0' too
-//     {
-//         a[lengthA + i] = b[i];
-//     }
-//
-//     printf("%s %s", a, b);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[101], b[101];
+    scanf("%s %s", a, b);
+
+    int lengthA = strlen(a);
+    int lengthB = strlen(b);
+
+    for (int i = 0; i <= lengthB; i++)          // <= copies '\0' too
+    {
+        a[lengthA + i] = b[i];
+    }
+
+    printf("%s %s", a, b);
+    return 0;
+}
+*/
 
 
 /*
@@ -150,19 +156,21 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[101], b[101];
-//     scanf("%s %s", a, b);
-//
-//     strcat(a, b);
-//
-//     printf("%s %s", a, b);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[101], b[101];
+    scanf("%s %s", a, b);
+
+    strcat(a, b);
+
+    printf("%s %s", a, b);
+    return 0;
+}
+*/
 
 
 /*
@@ -193,34 +201,36 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     char a[101], b[101];
-//     scanf("%s %s", a, b);
-//
-//     int i = 0;
-//     while (a[i] != '\0' && b[i] != '\0' && a[i] == b[i])
-//     {
-//         i++;
-//     }
-//
-//     if (a[i] == b[i])
-//     {
-//         printf("Equal");
-//     }
-//     else if (a[i] < b[i])
-//     {
-//         printf("A is smaller");
-//     }
-//     else
-//     {
-//         printf("B is smaller");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    char a[101], b[101];
+    scanf("%s %s", a, b);
+
+    int i = 0;
+    while (a[i] != '\0' && b[i] != '\0' && a[i] == b[i])
+    {
+        i++;
+    }
+
+    if (a[i] == b[i])
+    {
+        printf("Equal");
+    }
+    else if (a[i] < b[i])
+    {
+        printf("A is smaller");
+    }
+    else
+    {
+        printf("B is smaller");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -246,27 +256,29 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[101], b[101];
-//     scanf("%s %s", a, b);
-//
-//     int val = strcmp(a, b);
-//     if (val < 0)
-//     {
-//         printf("A is smaller");
-//     }
-//     else if (val > 0)
-//     {
-//         printf("B is smaller");
-//     }
-//     else
-//     {
-//         printf("Equal");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[101], b[101];
+    scanf("%s %s", a, b);
+
+    int val = strcmp(a, b);
+    if (val < 0)
+    {
+        printf("A is smaller");
+    }
+    else if (val > 0)
+    {
+        printf("B is smaller");
+    }
+    else
+    {
+        printf("Equal");
+    }
+
+    return 0;
+}
+*/

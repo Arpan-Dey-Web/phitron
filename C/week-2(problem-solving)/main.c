@@ -35,24 +35,26 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     char presentChar;
-//     scanf("%c", &presentChar);
-//
-//     if (presentChar == 'z') {
-//         printf("a");               // wrap-around case
-//     } else {
-//         printf("%c", presentChar + 1);
-//     }
-//
-//     return 0;
-// }
-//
+/*
+#include <stdio.h>
+
+int main() {
+    char presentChar;
+    scanf("%c", &presentChar);
+
+    if (presentChar == 'z') {
+        printf("a");               // wrap-around case
+    } else {
+        printf("%c", presentChar + 1);
+    }
+
+    return 0;
+}
+
 // Note: characters are consecutive ASCII values, so
 // presentChar + 1 gives the next letter. Without the special
 // case, 'z' + 1 would print '{' (ASCII 123).
+*/
 
 
 /*
@@ -97,27 +99,33 @@
 =====================================================================
 */
 
-// #include <stdio.h>
+/*
+#include <stdio.h>
 
-// int main() {
-//     long long a, b, c, d;
-//     scanf("%lld %lld %lld %lld", &a, &b, &c, &d);
 
-//     if (
-//         a + b * c == d ||
-//         a - b * c == d ||
-//         a * b + c == d ||
-//         a * b - c == d ||
-//         a + b - c == d ||
-//         a - b + c == d 
-//     ) {
-//         printf("YES\n");
-//     } else {
-//         printf("NO\n");
-//     }
 
-//     return 0;
-// }
+int main() {
+    long long a, b, c, d;
+    scanf("%lld %lld %lld %lld", &a, &b, &c, &d);
+
+
+
+    if (a + b * c == d ||
+        a - b * c == d ||
+        a * b + c == d ||
+        a * b - c == d ||
+        a + b - c == d ||
+        a - b + c == d) {
+        printf("YES\n");
+    } else {
+        printf("NO\n");
+    }
+
+
+
+    return 0;
+}
+*/
 
 
 /*
@@ -163,25 +171,27 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int i = 1;
-//     while (i <= n) {
-//         if (n % i == 0) {
-//             printf("%d\n", i);
-//         }
-//         i++;
-//     }
-//
-//     return 0;
-// }
-//
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int i = 1;
+    while (i <= n) {
+        if (n % i == 0) {
+            printf("%d\n", i);
+        }
+        i++;
+    }
+
+    return 0;
+}
+
 // Note: checking i from 1 to n naturally prints divisors in
 // ascending order.
+*/
 
 
 /*
@@ -225,23 +235,25 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     int firstNumber;
-//     int secondNumber;
-//
-//     scanf("%d", &n);
-//
-//     secondNumber = n % 10;      // last digit
-//     firstNumber = n / 10;       // remaining digit
-//
-//     if (secondNumber % firstNumber == 0 || firstNumber % secondNumber == 0) {
-//         printf("YES");
-//     } else {
-//         printf("NO");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    int firstNumber;
+    int secondNumber;
+
+    scanf("%d", &n);
+
+    secondNumber = n % 10;      // last digit
+    firstNumber = n / 10;       // remaining digit
+
+    if (secondNumber % firstNumber == 0 || firstNumber % secondNumber == 0) {
+        printf("YES");
+    } else {
+        printf("NO");
+    }
+
+    return 0;
+}
+*/

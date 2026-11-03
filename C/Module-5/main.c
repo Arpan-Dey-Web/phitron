@@ -38,20 +38,22 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int a, b;
-//     scanf("%d %d", &a, &b);
-//
-//     if (a >= b) {
-//         printf("Yes");
-//     } else {
-//         printf("No");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    if (a >= b) {
+        printf("Yes");
+    } else {
+        printf("No");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -90,20 +92,22 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int a, b;
-//     scanf("%d %d", &a, &b);
-//
-//     if (a % b == 0 || b % a == 0) {
-//         printf("Multiples");
-//     } else {
-//         printf("No Multiples");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    if (a % b == 0 || b % a == 0) {
+        printf("Multiples");
+    } else {
+        printf("No Multiples");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -134,29 +138,31 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int a;
-//     scanf("%d", &a);
-//
-//     int firstDigit = a / 1000;   // integer division: 4569 / 1000 = 4
-//
-//     if (firstDigit % 2 == 0) {
-//         printf("EVEN");
-//     } else {
-//         printf("ODD");
-//     }
-//
-//     return 0;
-// }
-//
+/*
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d", &a);
+
+    int firstDigit = a / 1000;   // integer division: 4569 / 1000 = 4
+
+    if (firstDigit % 2 == 0) {
+        printf("EVEN");
+    } else {
+        printf("ODD");
+    }
+
+    return 0;
+}
+
 // Notes:
 //   - a / 1000 removes the last 3 digits. This works because the
 //     problem guarantees X has exactly 4 digits (999 < X <= 9999).
 //     In C this is integer division: the result is truncated, no
 //     float value is produced.
 //   - a % 10 gives the last digit of a number (4569 % 10 = 9).
+*/
 
 
 /*
@@ -189,22 +195,24 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     char ch;
-//     scanf("%c", &ch);
-//
-//     if (ch >= 'a' && ch <= 'z') {
-//         ch = ch - 32;          // lowercase -> uppercase
-//         printf("%c", ch);
-//     } else {
-//         ch = ch + 32;          // uppercase -> lowercase
-//         printf("%c", ch);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+
+    if (ch >= 'a' && ch <= 'z') {
+        ch = ch - 32;          // lowercase -> uppercase
+        printf("%c", ch);
+    } else {
+        ch = ch + 32;          // uppercase -> lowercase
+        printf("%c", ch);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -248,26 +256,28 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     char ch;
-//     scanf("%c", &ch);
-//
-//     if (ch >= '0' && ch <= '9') {
-//         printf("IS DIGIT\n");
-//     } else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-//         printf("ALPHA\n");
-//
-//         if (ch >= 'a' && ch <= 'z') {
-//             printf("IS SMALL\n");
-//         } else {
-//             printf("IS CAPITAL\n");
-//         }
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+
+    if (ch >= '0' && ch <= '9') {
+        printf("IS DIGIT\n");
+    } else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+        printf("ALPHA\n");
+
+        if (ch >= 'a' && ch <= 'z') {
+            printf("IS SMALL\n");
+        } else {
+            printf("IS CAPITAL\n");
+        }
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -298,32 +308,34 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int a, b, c;
-//     scanf("%d %d %d", &a, &b, &c);
-//
-//     int maximumNumber;
-//     int minimumNumber;
-//
-//     if (a >= b && a >= c) {
-//         maximumNumber = a;
-//     } else if (b >= a && b >= c) {
-//         maximumNumber = b;
-//     } else {
-//         maximumNumber = c;
-//     }
-//
-//     if (a <= b && a <= c) {
-//         minimumNumber = a;
-//     } else if (b <= a && b <= c) {
-//         minimumNumber = b;
-//     } else {
-//         minimumNumber = c;
-//     }
-//
-//     printf("%d %d", minimumNumber, maximumNumber);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+
+    int maximumNumber;
+    int minimumNumber;
+
+    if (a >= b && a >= c) {
+        maximumNumber = a;
+    } else if (b >= a && b >= c) {
+        maximumNumber = b;
+    } else {
+        maximumNumber = c;
+    }
+
+    if (a <= b && a <= c) {
+        minimumNumber = a;
+    } else if (b <= a && b <= c) {
+        minimumNumber = b;
+    } else {
+        minimumNumber = c;
+    }
+
+    printf("%d %d", minimumNumber, maximumNumber);
+
+    return 0;
+}
+*/

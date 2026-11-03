@@ -35,20 +35,22 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int num;
-//     scanf("%d", &num);
-//
-//     if (num == 0) {
-//         printf("Zero");
-//     } else {
-//         printf("Non Zero");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int num;
+    scanf("%d", &num);
+
+    if (num == 0) {
+        printf("Zero");
+    } else {
+        printf("Non Zero");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -80,17 +82,19 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int a;
-//     scanf("%d", &a);
-//
-//     a += 5;
-//     printf("%d", a);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d", &a);
+
+    a += 5;
+    printf("%d", a);
+
+    return 0;
+}
+*/
 
 
 /*
@@ -119,21 +123,23 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int a, b;
-//     scanf("%d %d", &a, &b);
-//
-//     // both directions must be checked, e.g. input "9 5" -> Yes
-//     if (a % b == 0 || b % a == 0) {
-//         printf("Yes");
-//     } else {
-//         printf("No");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    // both directions must be checked, e.g. input "9 5" -> Yes
+    if (a % b == 0 || b % a == 0) {
+        printf("Yes");
+    } else {
+        printf("No");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -165,16 +171,18 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     float num;
-//     scanf("%f", &num);
-//
-//     printf("%.3f", num);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    float num;
+    scanf("%f", &num);
+
+    printf("%.3f", num);
+
+    return 0;
+}
+*/
 
 
 /*
@@ -222,19 +230,21 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int A;
-//     long long B;
-//     float C;
-//     char D;
-//
-//     scanf("%d %lld %f %c", &A, &B, &C, &D);
-//     printf("%d\n%lld\n%.2f\n%c\n", A, B, C, D);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int A;
+    long long B;
+    float C;
+    char D;
+
+    scanf("%d %lld %f %c", &A, &B, &C, &D);
+    printf("%d\n%lld\n%.2f\n%c\n", A, B, C, D);
+
+    return 0;
+}
+*/
 
 
 /*
@@ -274,19 +284,21 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     for (int i = 1; i <= n; i++) {
-//         if (i % 5 == 0) {
-//             printf("%d Yes\n", i);
-//         } else {
-//             printf("%d No\n", i);
-//         }
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        if (i % 5 == 0) {
+            printf("%d Yes\n", i);
+        } else {
+            printf("%d No\n", i);
+        }
+    }
+
+    return 0;
+}
+*/

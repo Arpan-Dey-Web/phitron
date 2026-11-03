@@ -34,15 +34,17 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     char s[10];
-//     scanf("%s", s);
-//     printf("%s", s);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    char s[10];
+    scanf("%s", s);
+    printf("%s", s);
+    return 0;
+}
+*/
 
 
 /*
@@ -72,15 +74,17 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     char s[30];
-//     fgets(s, 30, stdin);
-//     printf("%s", s);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    char s[30];
+    fgets(s, 30, stdin);
+    printf("%s", s);
+    return 0;
+}
+*/
 
 
 /*
@@ -102,14 +106,16 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     char s[30] = "Arpan Dey";
-//     printf("%s", s);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    char s[30] = "Arpan Dey";
+    printf("%s", s);
+    return 0;
+}
+*/
 
 
 /*
@@ -131,22 +137,24 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     char s[100];
-//     scanf("%s", s);
-//
-//     int count = 0;
-//     for (int i = 0; s[i] != '\0'; i++)
-//     {
-//         count++;
-//     }
-//
-//     printf("%d", count);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    char s[100];
+    scanf("%s", s);
+
+    int count = 0;
+    for (int i = 0; s[i] != '\0'; i++)
+    {
+        count++;
+    }
+
+    printf("%d", count);
+    return 0;
+}
+*/
 
 
 /*
@@ -167,18 +175,20 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char s[100];
-//     scanf("%s", s);
-//
-//     int size = strlen(s);
-//     printf("%d", size);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[100];
+    scanf("%s", s);
+
+    int size = strlen(s);
+    printf("%d", size);
+    return 0;
+}
+*/
 
 
 /*
@@ -206,21 +216,23 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char s[1000001];
-//     scanf("%s", s);
-//
-//     int length = strlen(s);
-//     int sum = 0;
-//     for (int i = 0; i < length; i++)
-//     {
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[1000001];
+    scanf("%s", s);
+
+    int length = strlen(s);
+    int sum = 0;
+    for (int i = 0; i < length; i++)
+    {
 //         sum += s[i] - '0';        // character -> digit value
-//     }
-//
-//     printf("%d", sum);
-//     return 0;
-// }
+    }
+
+    printf("%d", sum);
+    return 0;
+}
+*/

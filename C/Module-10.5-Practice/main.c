@@ -52,26 +52,28 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int arr[n];
-//     for (int i = 0; i < n; i++)
-//     {
-//         scanf("%d", &arr[i]);
-//     }
-//
-//     for (int i = n - 1; i >= 0; i--)
-//     {
-//         printf("%d ", arr[i]);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    for (int i = n - 1; i >= 0; i--)
+    {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -116,37 +118,39 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int a[n];
-//     for (int i = 0; i < n; i++)
-//     {
-//         scanf("%d", &a[i]);
-//     }
-//
-//     int flag = 1;
-//     for (int i = 0, j = n - 1; i < j; i++, j--)
-//     {
-//         if (a[i] != a[j])
-//         {
-//             printf("NO");
-//             flag = 0;
-//             break;
-//         }
-//     }
-//
-//     if (flag == 1)
-//     {
-//         printf("YES");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    int a[n];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    int flag = 1;
+    for (int i = 0, j = n - 1; i < j; i++, j--)
+    {
+        if (a[i] != a[j])
+        {
+            printf("NO");
+            flag = 0;
+            break;
+        }
+    }
+
+    if (flag == 1)
+    {
+        printf("YES");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -191,32 +195,34 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//
-//     for (int i = 0; i < n; i++)
-//     {
-//         char str[105];
-//         scanf("%s", str);
-//         int strLength = strlen(str);
-//
-//         if (strLength <= 10)
-//         {
-//             printf("%s\n", str);
-//         }
-//         else
-//         {
-//             printf("%c%d%c\n", str[0], strLength - 2, str[strLength - 1]);
-//         }
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 0; i < n; i++)
+    {
+        char str[105];
+        scanf("%s", str);
+        int strLength = strlen(str);
+
+        if (strLength <= 10)
+        {
+            printf("%s\n", str);
+        }
+        else
+        {
+            printf("%c%d%c\n", str[0], strLength - 2, str[strLength - 1]);
+        }
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -250,34 +256,36 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[100001];
-//     scanf("%s", a);
-//     int len = strlen(a);
-//
-//     for (int i = 0; i < len; i++)
-//     {
-//         if (a[i] == ',')
-//         {
-//             a[i] = ' ';
-//         }
-//         else if (a[i] >= 'A' && a[i] <= 'Z')
-//         {
-//             a[i] += 32;        // upper -> lower
-//         }
-//         else if (a[i] >= 'a' && a[i] <= 'z')
-//         {
-//             a[i] -= 32;        // lower -> upper
-//         }
-//     }
-//
-//     printf("%s", a);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[100001];
+    scanf("%s", a);
+    int len = strlen(a);
+
+    for (int i = 0; i < len; i++)
+    {
+        if (a[i] == ',')
+        {
+            a[i] = ' ';
+        }
+        else if (a[i] >= 'A' && a[i] <= 'Z')
+        {
+            a[i] += 32;        // upper -> lower
+        }
+        else if (a[i] >= 'a' && a[i] <= 'z')
+        {
+            a[i] -= 32;        // lower -> upper
+        }
+    }
+
+    printf("%s", a);
+    return 0;
+}
+*/
 
 
 /*
@@ -315,33 +323,35 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[10001];
-//     scanf("%s", a);
-//     int len = strlen(a);
-//
-//     int num = 1;
-//     for (int i = 0, j = len - 1; i < j; i++, j--)
-//     {
-//         if (a[i] != a[j])
-//         {
-//             num = 0;
-//             printf("NO");
-//             break;
-//         }
-//     }
-//
-//     if (num == 1)
-//     {
-//         printf("YES");
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[10001];
+    scanf("%s", a);
+    int len = strlen(a);
+
+    int num = 1;
+    for (int i = 0, j = len - 1; i < j; i++, j--)
+    {
+        if (a[i] != a[j])
+        {
+            num = 0;
+            printf("NO");
+            break;
+        }
+    }
+
+    if (num == 1)
+    {
+        printf("YES");
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -380,23 +390,25 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char s[15], t[15];
-//     scanf("%s %s", s, t);
-//
-//     int len_s = strlen(s);
-//     int len_t = strlen(t);
-//     printf("%d %d\n", len_s, len_t);
-//     printf("%s%s\n", s, t);
-//
-//     char temp = s[0];
-//     s[0] = t[0];
-//     t[0] = temp;
-//     printf("%s %s\n", s, t);
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[15], t[15];
+    scanf("%s %s", s, t);
+
+    int len_s = strlen(s);
+    int len_t = strlen(t);
+    printf("%d %d\n", len_s, len_t);
+    printf("%s%s\n", s, t);
+
+    char temp = s[0];
+    s[0] = t[0];
+    t[0] = temp;
+    printf("%s %s\n", s, t);
+
+    return 0;
+}
+*/

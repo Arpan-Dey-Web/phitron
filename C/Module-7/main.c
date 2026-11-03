@@ -28,16 +28,18 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int arr[10];
-//
-//     arr[2] = 20;
-//     printf("%d", arr[2]);   // 20
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int arr[10];
+
+    arr[2] = 20;
+    printf("%d", arr[2]);   // 20
+
+    return 0;
+}
+*/
 
 
 /*
@@ -54,17 +56,19 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int ar[5];
-//
-//     for (int i = 0; i <= 4; i++) {
-//         scanf("%d", &ar[i]);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int ar[5];
+
+    for (int i = 0; i <= 4; i++) {
+        scanf("%d", &ar[i]);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -83,17 +87,19 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int ar[5];
-//
-//     for (int i = 0; i <= 4; i++) {
-//         printf("%d\n", ar[i]);   // value, not &ar[i]
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int ar[5];
+
+    for (int i = 0; i <= 4; i++) {
+        printf("%d\n", ar[i]);   // value, not &ar[i]
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -127,23 +133,25 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main() {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int a[n];
-//     for (int i = 0; i < n; i++) {
-//         scanf("%d", &a[i]);
-//     }
-//
-//     for (int i = n - 1; i >= 0; i--) {
-//         printf("%d\n", a[i]);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int a[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    for (int i = n - 1; i >= 0; i--) {
+        printf("%d\n", a[i]);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -172,23 +180,35 @@
 =====================================================================
 */
 
-// #include <stdio.h>
+/*
+#include <stdio.h>
 
-// int main() {
-//     int n;
-//     scanf("%d", &n);
 
-//     int arr[100]={0};
-//     for (int i = 0; i < n; i++) {
-//         scanf("%d", &arr[i]);
-//     }
 
-//     int sum = 0;
-//     for (int i = 0; i < n; i++) {
-//         sum += arr[i];
-//     }
+int main() {
+    int n;
+    scanf("%d", &n);
 
-//     printf("%d", sum);
 
-//     return 0;
-// }
+
+    int arr[100]={0};
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+
+
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += arr[i];
+    }
+
+
+
+    printf("%d", sum);
+
+
+
+    return 0;
+}
+*/

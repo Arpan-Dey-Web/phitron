@@ -58,33 +58,35 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//
-//     int devidedBy2 = 0, devidedBy3 = 0;
-//
-//     for (int i = 0; i < n; i++)
-//     {
-//         int number;
-//         scanf("%d", &number);
-//
-//         if (number % 2 == 0)
-//         {
-//             devidedBy2++;
-//         }
-//         else if (number % 3 == 0)
-//         {
-//             devidedBy3++;
-//         }
-//     }
-//
-//     printf("%d %d", devidedBy2, devidedBy3);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    int devidedBy2 = 0, devidedBy3 = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        int number;
+        scanf("%d", &number);
+
+        if (number % 2 == 0)
+        {
+            devidedBy2++;
+        }
+        else if (number % 3 == 0)
+        {
+            devidedBy3++;
+        }
+    }
+
+    printf("%d %d", devidedBy2, devidedBy3);
+    return 0;
+}
+*/
 
 
 /*
@@ -118,28 +120,30 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[100001];
-//     scanf("%s", a);
-//     int len = strlen(a);
-//
-//     int consonent = 0;
-//     for (int i = 0; i < len; i++)
-//     {
-//         if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u')
-//         {
-//             continue;              // vowel → not a consonant
-//         }
-//         consonent++;
-//     }
-//
-//     printf("%d", consonent);
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char a[100001];
+    scanf("%s", a);
+    int len = strlen(a);
+
+    int consonent = 0;
+    for (int i = 0; i < len; i++)
+    {
+        if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u')
+        {
+            continue;              // vowel → not a consonant
+        }
+        consonent++;
+    }
+
+    printf("%d", consonent);
+    return 0;
+}
+*/
 
 
 /*
@@ -194,27 +198,29 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//     int t;
-//     scanf("%d", &t);
-//
-//     for (int i = 0; i < t; i++)
-//     {
-//         int m1, m2, days;
-//         scanf("%d %d %d", &m1, &m2, &days);
-//
-//         int total_farmers = m1 + m2;
-//         int new_days = (m1 * days) / total_farmers;
-//         int fewer_days = days - new_days;
-//
-//         printf("%d\n", fewer_days);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+
+int main()
+{
+    int t;
+    scanf("%d", &t);
+
+    for (int i = 0; i < t; i++)
+    {
+        int m1, m2, days;
+        scanf("%d %d %d", &m1, &m2, &days);
+
+        int total_farmers = m1 + m2;
+        int new_days = (m1 * days) / total_farmers;
+        int fewer_days = days - new_days;
+
+        printf("%d\n", fewer_days);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -256,43 +262,45 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     int t;
-//     scanf("%d", &t);
-//
-//     for (int i = 0; i < t; i++)
-//     {
-//         char a[10005];
-//         scanf("%s", a);
-//
-//         int len = strlen(a);
-//         int capitalLetters = 0, smallLetters = 0, digits = 0;
-//
-//         for (int j = 0; j < len; j++)
-//         {
-//             if (a[j] >= 'a' && a[j] <= 'z')
-//             {
-//                 smallLetters++;
-//             }
-//             else if (a[j] >= 'A' && a[j] <= 'Z')
-//             {
-//                 capitalLetters++;
-//             }
-//             else if (a[j] >= '0' && a[j] <= '9')
-//             {
-//                 digits++;
-//             }
-//         }
-//
-//         printf("%d %d %d\n", capitalLetters, smallLetters, digits);
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    int t;
+    scanf("%d", &t);
+
+    for (int i = 0; i < t; i++)
+    {
+        char a[10005];
+        scanf("%s", a);
+
+        int len = strlen(a);
+        int capitalLetters = 0, smallLetters = 0, digits = 0;
+
+        for (int j = 0; j < len; j++)
+        {
+            if (a[j] >= 'a' && a[j] <= 'z')
+            {
+                smallLetters++;
+            }
+            else if (a[j] >= 'A' && a[j] <= 'Z')
+            {
+                capitalLetters++;
+            }
+            else if (a[j] >= '0' && a[j] <= '9')
+            {
+                digits++;
+            }
+        }
+
+        printf("%d %d %d\n", capitalLetters, smallLetters, digits);
+    }
+
+    return 0;
+}
+*/
 
 
 /*
@@ -341,33 +349,28 @@
 =====================================================================
 */
 
-// #include <stdio.h>
-// #include <string.h>
-//
-// int main()
-// {
-//     char a[10005];
-//     scanf("%s", a);
-//
-//     int length = strlen(a);
-//
-//     for (char ch = 'a'; ch <= 'z'; ch++)
-//     {
-//         int count = 0;
-//
-//         for (int i = 0; i < length; i++)
-//         {
-//             if (a[i] == ch)
-//             {
-//                 count++;
-//             }
-//         }
-//
-//         if (count > 0)
-//         {
-//             printf("%c - %d\n", ch, count);
-//         }
-//     }
-//
-//     return 0;
-// }
+/*
+#include <stdio.h>
+#include <string.h>
+
+
+int main() {
+    char s[10005];
+    scanf("%s", s);
+    int freq[26] = {0};
+    int len = strlen(s);
+    for (int i = 0; i < len; i++) {
+        freq[s[i] - 'a']++;
+    }
+
+    for (int i = 0; i < 26; i++) {
+        if (freq[i] > 0) {
+            printf("%c - %d\n", i + 'a', freq[i]);
+        }
+    }
+
+
+
+    return 0;
+}
+*/
