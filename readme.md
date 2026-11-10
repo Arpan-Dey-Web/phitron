@@ -1,7 +1,7 @@
 # Phitron — Fundamentals of Competitive Programming
 
 This repository is my **C programming learning journey** — from the very first `printf()` up to
-pointers, functions and pattern printing. Everything here comes from the Phitron Foundation Track
+pointers, recursion and 2D arrays. Everything here comes from the Phitron Foundation Track
 course: class notes, problem statements, my solutions, quizzes and practice sets.
 
 I keep it organized so that I can revise any topic later without rewatching the class. Every
@@ -31,7 +31,7 @@ gcc -Wall -Wextra -o main main.c
 ```text
 .
 ├── C/                      ← everything from the C course
-│   ├── Module-1 … 15       ← theory modules + extra-practice sets
+│   ├── Module-1 … 18       ← theory modules + extra-practice sets
 │   ├── Assaignment-1..3    ← graded assignment problem sets
 │   ├── Mid-Exam            ← my mid-exam solutions
 │   └── week-1, week-2      ← weekly problem-solving practice
@@ -60,8 +60,10 @@ gcc -Wall -Wextra -o main main.c
 | [Module 13](C/Module-13/readme.md) | Nested Loop Recap — star patterns and pair sum | ✓ | ✓ |
 | [Module 14](C/Module-14/readme.md) | Functions — syntax, 4 combinations, scope, math functions | ✓ | ✓ |
 | [Module 15](C/Module-15/readme.md) | Pointers — address, dereference, pass by value/reference, arrays as pointers | ✓ | — |
+| [Module 17](C/Module-17/readme.md) | Recursion — call stack, base case, stack overflow, recursive array printing | ✓ | ✓ |
+| [Module 18](C/Module-18/readme.md) | 2D Arrays and Matrices — declaration, storage, matrix types, diagonals | ✓ | ✓ |
 
-> Modules 4, 8 and 12 are not in this repo — I have no notes for them yet.
+> Modules 4, 8, 12 and 16 are not in this repo — I have no notes for them yet.
 
 ### Extra Practice Sets
 
@@ -111,14 +113,15 @@ At the end of each note you will find:
 | Modules 5–7 (problem sets, arrays) | ✅ done |
 | Modules 9–11 (array tricks, strings, string functions) | ✅ done |
 | Modules 13–15 (nested loops, functions, pointers) | ✅ done |
+| Modules 17–18 (recursion, 2D arrays and matrices) | ✅ done |
 | Extra practice + Pattern-Printing | ✅ done |
 | Assignments 1–3 + Mid-Exam | ✅ done |
 | Weeks 1–2 problem solving | ✅ done |
-| Modules 4, 8, 12 | ⬜ no notes yet |
+| Modules 4, 8, 12, 16 | ⬜ no notes yet |
 
-**Current stage:** finished the pointer module — the C basics track through Module 15 is covered.
-Next up: keep solving problem sets and start the follow-on topics (pointer arithmetic, dynamic
-memory) when the course reaches them.
+**Current stage:** finished the 2D array and matrix module — the C basics track through Module 18
+is covered. Next up: keep solving problem sets and continue with the follow-on modules (transpose,
+matrix operations, then the course's next topic) as they come.
 
 ---
 
