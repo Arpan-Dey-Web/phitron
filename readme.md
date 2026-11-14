@@ -31,7 +31,7 @@ gcc -Wall -Wextra -o main main.c
 ```text
 .
 ├── C/                      ← everything from the C course
-│   ├── Module-1 … 18       ← theory modules + extra-practice sets
+│   ├── Module-1 … 19       ← theory modules + extra-practice sets
 │   ├── Assaignment-1..3    ← graded assignment problem sets
 │   ├── Mid-Exam            ← my mid-exam solutions
 │   └── week-1, week-2      ← weekly problem-solving practice
@@ -62,6 +62,7 @@ gcc -Wall -Wextra -o main main.c
 | [Module 15](C/Module-15/readme.md) | Pointers — address, dereference, pass by value/reference, arrays as pointers | ✓ | — |
 | [Module 17](C/Module-17/readme.md) | Recursion — call stack, base case, stack overflow, recursive array printing | ✓ | ✓ |
 | [Module 18](C/Module-18/readme.md) | 2D Arrays and Matrices — declaration, storage, matrix types, diagonals | ✓ | ✓ |
+| [Module 19](C/Module-19/readme.md) | Practice: 2D Arrays + Recursion — mirror array, digits, vowels, factorial | ✓ | — |
 
 > Modules 4, 8, 12 and 16 are not in this repo — I have no notes for them yet.
 
@@ -82,6 +83,7 @@ gcc -Wall -Wextra -o main main.c
 | [Assignment 2](C/Assaignment-2/) | 5 problems: I Want More Assignments, Positive/Negative Range, Odd Indexes in Reverse, Sum of Pos/Neg, Update Index then Print Reverse |
 | [Assignment 3](C/Assaignment-3/) | 5 problems: `odd_even()`, `is_palindrome()`, `count_before_one()`, number pattern, diamond pattern |
 | [Mid-Exam](C/Mid-Exam/readme.md) | 5-problem contest set: divisibility, consonants, farmers and days, letter counting, letter frequency |
+| [Final Exam](C/Final-Exam/readme.md) | 5-problem contest set: missing number, Jadu matrix, last row/column, Christmas tree, copy-sort-difference |
 | [Week 1](<C/week-1(problem-solving)/readme.md>) | Problem solving: zero/non-zero, marks, multiple or not, floating point, read 4 types |
 | [Week 2](<C/week-2(problem-solving)/readme.md>) | Problem solving: next alphabet, Ali Baba and puzzles, divisors, lucky numbers |
 | [Extra Contest](C/extraContest/) | Multiply Them! (two-number multiplication) |
@@ -114,14 +116,15 @@ At the end of each note you will find:
 | Modules 9–11 (array tricks, strings, string functions) | ✅ done |
 | Modules 13–15 (nested loops, functions, pointers) | ✅ done |
 | Modules 17–18 (recursion, 2D arrays and matrices) | ✅ done |
+| Module 19 (practice: 2D arrays + recursion) | ✅ done |
 | Extra practice + Pattern-Printing | ✅ done |
-| Assignments 1–3 + Mid-Exam | ✅ done |
+| Assignments 1–3 + Mid-Exam + Final Exam | ✅ done |
 | Weeks 1–2 problem solving | ✅ done |
 | Modules 4, 8, 12, 16 | ⬜ no notes yet |
 
-**Current stage:** finished the 2D array and matrix module — the C basics track through Module 18
-is covered. Next up: keep solving problem sets and continue with the follow-on modules (transpose,
-matrix operations, then the course's next topic) as they come.
+**Current stage:** finished the final exam — the C basics track through Module 19 and the whole
+contest set (assignments, mid-exam, final exam) is covered. Next up: keep solving problem sets and
+continue with the follow-on modules as they come.
 
 ---
 
