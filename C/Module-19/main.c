@@ -289,9 +289,6 @@ int main()
     int can hold (max about 2.1e9). 20! still fits in long long
     (max about 9.2e18), which is why the function returns long
     long and main prints with %lld.
-
-    This is the solution recorded in input.txt / output.txt
-    (5 -> 120).
 =====================================================================
 */
 

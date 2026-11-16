@@ -1,10 +1,12 @@
 # Module 19 — Practice: 2D Arrays and Recursion
 
-This folder is a **practice set after Module 18 (2D arrays) and Module 17 (recursion)** — 4
-problems: mirroring a 2D array, then three recursive problems (digits, vowels, factorial).
+This folder is a **practice set after Module 18 (2D arrays) and Module 17 (recursion)** — 4 problems
+in `main.c` (mirroring a 2D array, then three recursive ones: digits, vowels, factorial) plus 4
+more in `extrapractice.c` (recursive max and summation, lucky division, watermelon).
 
 I did not write a theory note for this session. All problem statements and my solutions are
-kept as comments inside `main.c`. This readme is the revision index for that folder.
+kept as comments inside `main.c` and `extrapractice.c`. This readme is the revision index for
+that folder.
 
 Revision first: [Module 17 — Recursion](../Module-17/readme.md) and
 [Module 18 — 2D Arrays](../Module-18/readme.md).
@@ -13,14 +15,15 @@ Files:
 
 | File | Purpose |
 | ---- | ------- |
-| `main.c` | Problem statements + my solutions (kept as block comments) |
+| `main.c` | Session problems W, D, I, J (kept as block comments) |
+| `extrapractice.c` | Extra practice K, L, J, B (kept as block comments) |
 | `quiz.md` | (empty — practice notes only) |
-| `input.txt` | Last input I tested with (Problem J) |
+| `input.txt` | Last input I tested with (extra-practice problem K) |
 | `output.txt` | Output produced for that input |
 
 ---
 
-# Problems Solved
+# Problems Solved — main.c
 
 | No. | Problem | Main Concept |
 | --- | ------- | ------------ |
@@ -28,6 +31,17 @@ Files:
 | D | Print Digits using Recursion | `n / 10` to go left, print on the way back |
 | I | Count Vowels | whole line via `fgets()` (spaces!), count on unwind |
 | J | Factorial | `n * factorial(n-1)`, base `n == 1`, `long long` |
+
+# Problems Solved — extrapractice.c
+
+| No. | Problem | Main Concept |
+| --- | ------- | ------------ |
+| K | Max Number | recursive max: base `n == 1`, compare on the way back |
+| L | Summation | recursive sum, base `n == 0`, `long long` for ±1e12 |
+| J | Lucky Division | try all 14 lucky numbers ≤ 1000 as divisors |
+| B | Watermelon | split `w` into two even positive parts → `w > 2 && w % 2 == 0` |
+
+(The letter `J` appears in both sets — they come from different problem sheets.)
 
 ---
 
@@ -62,7 +76,15 @@ itself.
 
 **J — Factorial.** `n * factorial(n - 1)` with base `n == 1`. `N` starts at 1, so `0!` never
 comes up. `20!` does not fit in `int` — the function returns `long long` and prints with `%lld`.
-This is the solution in `input.txt` / `output.txt` (`5` → `120`).
+
+**Extra practice (extrapractice.c).** Same shape, different jobs:
+
+- **K — Max Number:** `max(arr[0..n-1]) = max(max(arr[0..n-2]), arr[n-1])`, base `n == 1`.
+- **L — Summation:** `sum(arr[0..n-1]) = arr[n-1] + sum(arr[0..n-2])`, base `n == 0` (empty sum
+  is 0). `long long` because 1000 × -1e9 = -1e12.
+- **J — Lucky Division:** no recursion — try the 14 fixed lucky numbers (4 … 777) as divisors;
+  `n % lucky[i] == 0` → YES.
+- **B — Watermelon:** both parts even ⇒ `w` even; both parts positive ⇒ `w > 2`. One `if`.
 
 ---
 
