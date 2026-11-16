@@ -37,6 +37,7 @@ gcc -Wall -Wextra -o main main.c
 │   └── week-1, week-2      ← weekly problem-solving practice
 ├── Pattern-Printing/       ← 11 nested-loop patterns (index below)
 ├── Plan.md                 ← my 52-week study plan
+├── course-outline.md       ← official schedule mapped to folders
 └── readme.md               ← this file
 ```
 
@@ -64,7 +65,9 @@ gcc -Wall -Wextra -o main main.c
 | [Module 18](C/Module-18/readme.md) | 2D Arrays and Matrices — declaration, storage, matrix types, diagonals | ✓ | ✓ |
 | [Module 19](C/Module-19/readme.md) | Practice: 2D Arrays + Recursion — mirror array, digits, vowels, factorial | ✓ | — |
 
-> Modules 4, 8, 12 and 16 are not in this repo — I have no notes for them yet.
+> Modules 4, 8, 12, 16 and 20 are assignment/exam days — their solutions live in the
+> [Assignments, Exams and Weekly Practice](#assignments-exams-and-weekly-practice) table below.
+> The full official schedule mapped to folders is in [course-outline.md](course-outline.md).
 
 ### Extra Practice Sets
 
@@ -120,7 +123,7 @@ At the end of each note you will find:
 | Extra practice + Pattern-Printing | ✅ done |
 | Assignments 1–3 + Mid-Exam + Final Exam | ✅ done |
 | Weeks 1–2 problem solving | ✅ done |
-| Modules 4, 8, 12, 16 | ⬜ no notes yet |
+| Practice days with no folder (2.5, 15.5, 18.5, 19.5) | ⬜ no notes produced |
 
 **Current stage:** finished the final exam — the C basics track through Module 19 and the whole
 contest set (assignments, mid-exam, final exam) is covered. Next up: keep solving problem sets and
@@ -131,4 +134,5 @@ continue with the follow-on modules as they come.
 ## Course
 
 - **Platform:** Phitron — Fundamentals of Competitive Programming
+- **Official schedule:** [course-outline.md](course-outline.md) — week-by-week class schedule mapped to the folders here
 - **Study plan:** [Plan.md](Plan.md) (52-week plan around the course + internship)
