@@ -35,6 +35,9 @@ gcc -Wall -Wextra -o main main.c
 │   ├── Assaignment-1..3    ← graded assignment problem sets
 │   ├── Mid-Exam            ← my mid-exam solutions
 │   └── week-1, week-2      ← weekly problem-solving practice
+├── c++/                    ← C++ track
+│   └── Module-1            ← intro to C++ (12 demos + notes)
+├── test-Contest/           ← practice contest problem set
 ├── Pattern-Printing/       ← 11 nested-loop patterns (index below)
 ├── Plan.md                 ← my 52-week study plan
 ├── course-outline.md       ← official schedule mapped to folders
@@ -69,6 +72,12 @@ gcc -Wall -Wextra -o main main.c
 > [Assignments, Exams and Weekly Practice](#assignments-exams-and-weekly-practice) table below.
 > The full official schedule mapped to folders is in [course-outline.md](course-outline.md).
 
+### C++ Track
+
+| Module | Topic | Notes | Quiz |
+| ------ | ----- | ----- | ---- |
+| [C++ Module 1](c++/Module-1/readme.md) | Introduction to C++ — `cout` / `cin`, `using namespace std`, casting and ASCII, `setprecision`, conditions, `switch`, `<algorithm>` helpers, whole-line input | ✓ | — |
+
 ### Extra Practice Sets
 
 | Folder | Topic | Notes |
@@ -90,6 +99,7 @@ gcc -Wall -Wextra -o main main.c
 | [Week 1](<C/week-1(problem-solving)/readme.md>) | Problem solving: zero/non-zero, marks, multiple or not, floating point, read 4 types |
 | [Week 2](<C/week-2(problem-solving)/readme.md>) | Problem solving: next alphabet, Ali Baba and puzzles, divisors, lucky numbers |
 | [Extra Contest](C/extraContest/) | Multiply Them! (two-number multiplication) |
+| [Test Contest](test-Contest/readme.md) | 5-problem practice contest: sum, four friends, marks target, maximum difference, study walk |
 
 ---
 
@@ -124,10 +134,12 @@ At the end of each note you will find:
 | Assignments 1–3 + Mid-Exam + Final Exam | ✅ done |
 | Weeks 1–2 problem solving | ✅ done |
 | Practice days with no folder (2.5, 15.5, 18.5, 19.5) | ⬜ no notes produced |
+| Test Contest (5-problem practice set) | ✅ done |
+| C++ track — Module 1 (intro to C++) | ✅ done |
 
 **Current stage:** finished the final exam — the C basics track through Module 19 and the whole
-contest set (assignments, mid-exam, final exam) is covered. Next up: keep solving problem sets and
-continue with the follow-on modules as they come.
+contest set (assignments, mid-exam, final exam) is covered, and the C++ track has started with
+Module 1. Next up: keep solving problem sets and continue the C++ modules as they come.
 
 ---
 
