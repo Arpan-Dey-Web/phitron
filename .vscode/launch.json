@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/arpan/Learning/phitron/C/Mid-Exam",
-      "program": "/home/arpan/Learning/phitron/C/Mid-Exam/build/Debug/outDebug",
+      "cwd": "/home/arpan/Learning/phitron/test-Contest",
+      "program": "/home/arpan/Learning/phitron/test-Contest/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
