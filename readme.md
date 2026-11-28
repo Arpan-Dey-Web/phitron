@@ -35,8 +35,9 @@ gcc -Wall -Wextra -o main main.c
 │   ├── Assaignment-1..3    ← graded assignment problem sets
 │   ├── Mid-Exam            ← my mid-exam solutions
 │   └── week-1, week-2      ← weekly problem-solving practice
-├── c++/                    ← C++ track
-│   └── Module-1            ← intro to C++ (12 demos + notes)
+├── c++/                    ← C++ for DSA track
+│   ├── Module-1 … 3        ← basic C++, dynamic memory, class & object
+│   └── Mid-Exam            ← C++ mid-term solutions
 ├── test-Contest/           ← practice contest problem set
 ├── Pattern-Printing/       ← 11 nested-loop patterns (index below)
 ├── Plan.md                 ← my 52-week study plan
@@ -77,6 +78,9 @@ gcc -Wall -Wextra -o main main.c
 | Module | Topic | Notes | Quiz |
 | ------ | ----- | ----- | ---- |
 | [C++ Module 1](c++/Module-1/readme.md) | Introduction to C++ — `cout` / `cin`, `using namespace std`, casting and ASCII, `setprecision`, conditions, `switch`, `<algorithm>` helpers, whole-line input | ✓ | — |
+| [C++ Module 2](c++/Module-2/readme.md) | Dynamic Memory Allocation — stack vs heap, `new` / `delete`, dynamic arrays, returning heap memory from functions | ✓ | — |
+| [C++ Module 3](c++/Module-3/readme.md) | Class and Object — constructors, `this`, returning objects, dangling pointers, dynamic objects, `sort()` | ✓ | — |
+| [C++ Mid-Exam](c++/Mid-Exam/readme.md) | 5-problem contest set: sort twice, `sort_it()` returning a heap array, frequency sort with EOF input, best-student class, three-sum | ✓ | — |
 
 ### Extra Practice Sets
 
@@ -136,10 +140,11 @@ At the end of each note you will find:
 | Practice days with no folder (2.5, 15.5, 18.5, 19.5) | ⬜ no notes produced |
 | Test Contest (5-problem practice set) | ✅ done |
 | C++ track — Module 1 (intro to C++) | ✅ done |
+| C++ track — Modules 2–3 (dynamic memory, class & object) + Mid-Exam | ✅ done |
 
-**Current stage:** finished the final exam — the C basics track through Module 19 and the whole
-contest set (assignments, mid-exam, final exam) is covered, and the C++ track has started with
-Module 1. Next up: keep solving problem sets and continue the C++ modules as they come.
+**Current stage:** finished the C++ mid-term — the C track is complete through the final exam,
+and the C++ for DSA track has covered Modules 1–3 plus its Mid-Exam. Next up: Module 05 (String
+Class) and the rest of the C++ track as they come.
 
 ---
 

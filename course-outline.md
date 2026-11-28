@@ -1,17 +1,22 @@
-# Course Outline — Phitron Fundamentals of Competitive Programming
+# Course Outline — Phitron (C Track) + C++ for DSA
 
-The official class schedule (**Weeks 1–5, October 3 – November 13**), mapped to the folders in
-this repository. Every row links to where my notes and solutions for that day live.
+The official class schedules for both tracks of my course, mapped to the folders in this
+repository. Every row links to where my notes and solutions for that day live.
+
+* **Part 1 — C:** Weeks 1–5, October 3 – November 13 (Fundamentals of Competitive Programming)
+* **Part 2 — C++ for DSA:** November 21 – December 4
 
 Legend:
 
 | Mark | Meaning |
 | ---- | ------- |
 | ✅ | folder exists — notes, solutions and/or quiz |
-| ⬜ | no folder — practice day that produced no separate notes |
+| ⬜ | no folder yet — practice day or upcoming session |
 | — | no module day (rest day) |
 
 ---
+
+# Part 1 — C Track
 
 ## Week 1 — Basics
 
@@ -86,6 +91,42 @@ Legend:
 
 ---
 
+# Part 2 — C++ for DSA
+
+## Week 1 — C++ Basics, Classes, Mid Term
+
+| Date | Official module | Title | My work |
+| ---- | --------------- | ----- | ------- |
+| Sat, Nov 21 | Module 01 | Basic C++ | [c++/Module-1](c++/Module-1/) ✅ |
+| Sun, Nov 22 | Module 02 + 2.5 | Dynamic Memory Allocation + Week 01 Practice Day 01 | [c++/Module-2](c++/Module-2/) ✅ |
+| Mon, Nov 23 | — | No Module | — |
+| Tue, Nov 24 | — | No Module | — |
+| Wed, Nov 25 | Module 03 | Class and Object in C++ | [c++/Module-3](c++/Module-3/) ✅ |
+| Thu, Nov 26 | Module 3.5 | week 01 practice day 02 | ⬜ no folder |
+| Fri, Nov 27 | Module 04 | Mid Term Exam | [c++/Mid-Exam](c++/Mid-Exam/) ✅ |
+
+> Practice Day 01 (Module 2.5) shares **Nov 22** with Module 02 — the session's notes are all in
+> **c++/Module-2**, so there is no separate 2.5 folder.
+
+---
+
+## Week 2 — Strings, Objects, Final Exam
+
+| Date | Official module | Title | My work |
+| ---- | --------------- | ----- | ------- |
+| Sat, Nov 28 | Module 05 | String Class In C++ | ⬜ no folder |
+| Sun, Nov 29 | Module 06 | More about class and string | ⬜ no folder |
+| Mon, Nov 30 | Module 6.5 | week 01 practice day 01 | ⬜ no folder |
+| Tue, Dec 1 | Module 07 | Array of objects | ⬜ no folder |
+| Wed, Dec 2 | Module 7.5 | week 01 practice day 02 | ⬜ no folder |
+| Thu, Dec 3 | Module 08 | Final Exam | ⬜ no folder |
+| Fri, Dec 4 | — | No Module | — |
+
+> Week 2 was still ahead when this was last updated — Modules 05–08 get their folders as the
+> sessions happen.
+
+---
+
 ## Naming Map — Official Number vs My Folder
 
 Some folders were created before I knew the official numbering, so the names differ. This is the
@@ -95,15 +136,17 @@ full mapping:
 | -------- | -------------- | ---- |
 | Module 04 — Assignment 01 | `Assaignment-1` | my original spelling, kept so links stay stable |
 | Module 08 — Assignment 02 | `Assaignment-2` | " |
-| Module 12 — Mid Term Exam | `Mid-Exam` | |
+| Module 12 — Mid Term Exam | `Mid-Exam` | C track |
 | Module 16 — Assignment 03 | `Assaignment-3` | " |
-| Module 20 — Final Exam | `Final-Exam` | |
+| Module 20 — Final Exam | `Final-Exam` | " |
 | Module 3.5 — week 01 practice | `week-1(problem-solving)` | |
 | Module 6.5 + 7.5 — week 2 practice | `week-2(problem-solving)` | both days in one folder |
 | Module 10.5 / 11.5 / 14.5 — practice days | `Module-10.5-Practice`, `Module-11.5(Extra-Practice)`, `Module-14.5(extraPractice)` | same numbers, longer names |
+| Module 04 — Mid Term Exam (C++) | `c++/Mid-Exam` | C++ track, exam folder |
 
-**Practice days with no folder:** Module 2.5, 15.5, 18.5, 19.5 — those sessions produced no
-separate notes, so there is nothing to link.
+**Practice days with no folder — C track:** Module 2.5, 15.5, 18.5, 19.5.
+**C++ track:** Module 2.5 (notes live in `c++/Module-2`), 3.5, 6.5, 7.5 — those sessions
+produced no separate notes, so there is nothing to link.
 
 ---
 
@@ -119,8 +162,12 @@ separate notes, so there is nothing to link.
 
 ## Progress
 
-All 20 official modules are covered — teaching modules 1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15,
-17, 18, 19 have notes, and the assignments and exams (04, 08, 12, 16, 20) have solutions. Four
-practice days (2.5, 15.5, 18.5, 19.5) have no folder of their own.
+**Part 1 — C:** all 20 official modules covered — teaching modules 1, 2, 3, 5, 6, 7, 9, 10, 11,
+13, 14, 15, 17, 18, 19 have notes, and the assignments and exams (04, 08, 12, 16, 20) have
+solutions. Four practice days (2.5, 15.5, 18.5, 19.5) have no folder of their own.
+
+**Part 2 — C++ for DSA:** Modules 01–03 and the Mid Term (04) are covered. Practice days 2.5,
+3.5, 6.5, 7.5 have no folder; Modules 05–08 (Strings, Classes + Strings, Array of objects,
+Final Exam) were still ahead when this was last updated.
 
 The index with topics per folder lives in [readme.md](readme.md).
